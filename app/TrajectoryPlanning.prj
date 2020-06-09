@@ -1,0 +1,61 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1003199841" file="D:\GitWS\git-repository\mcode_Doc\app\TrajectoryPlanning.prj" location="D:\GitWS\git-repository\mcode_Doc\app" name="TrajectoryPlanning" target="target.mlapps" target-name="打包为 App">
+    <param.appname>TrajectoryPlanning</param.appname>
+    <param.authnamewatermark>OuyangJunyuan</param.authnamewatermark>
+    <param.email>706545330@qq.com</param.email>
+    <param.company>HITsz</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>学习机器人学导论时出于兴趣做的几个轨迹规划可视化程序</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\70654\Desktop\LQ6JNKU~XZ@}ZS9VF8ZTGCD.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e646f1f4-9146-4977-af88-70a77a55272a</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\trajectory_planning.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>D:\GitWS\git-repository\mcode_Doc\func\LFPB.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\GitWS\git-repository\mcode_Doc" name="app" optional="false">D:\GitWS\git-repository\mcode_Doc\app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Software\matlab</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
